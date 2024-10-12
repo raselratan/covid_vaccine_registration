@@ -1,4 +1,6 @@
-# covid_vaccine_registration
+__covid vaccination registration app__
+
+__Using Laravel 11 and inertia vue 3 with composition api__ 
 
 #PHP version __8.2 or higher__
 
