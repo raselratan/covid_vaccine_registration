@@ -53,7 +53,7 @@
 
     const fetchVenues = async () => {
         try {
-            venues.value = (await fetchData('/public/venues')).data;
+            venues.value = (await fetchData('/venues')).data;
         } catch (e) {
 
         }
@@ -67,7 +67,7 @@
     const Submit = async () => {
 
         try {
-            const data = await postData('/public/store-user', userData);
+            const data = await postData('/store-user', userData);
 
             if (data.status == 422) {
                 for (const [key, value] of Object.entries(errors)) {

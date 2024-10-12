@@ -62,7 +62,7 @@
 
     const Search = async () => {
         try {
-            result.value = (await fetchData(`/public/search/${nid.value}`)).data;
+            result.value = (await fetchData(`/search/${nid.value}`)).data;
         } catch (e) {
             console.log(e);
         }
