@@ -32,3 +32,6 @@ __npm run dev and php artisan serve__ commands must run simultaneously.
 
 #Step:10 For scheduling and job queue run
 __php artisan queue:work --queue=high,default and php artisan schedule:work__ commands must run simultaneously.
+
+
+#NOTE: __It can be optimized by using redis queue rather than database__
