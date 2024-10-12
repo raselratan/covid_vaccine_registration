@@ -13,7 +13,7 @@ __composer install__
 #Step:3 Run the command
 __composer du__
 
-#Step:4 __Create and Setup Your .env file with database and smtp mail configs also set the QUEUE_CONNECTION as database__
+#Step:4 __Create and Setup Your .env file with database and smtp mail configs and also set the QUEUE_CONNECTION as database__
 
 #Step:5 Run the command
 __php artisan migrate:fresh --seed__
