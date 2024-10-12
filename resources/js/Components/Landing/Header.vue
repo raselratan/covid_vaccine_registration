@@ -21,11 +21,11 @@ import Menu from './Menu.vue';
 const menuList = reactive([
       {
           title: 'Register',
-          link: '/public/'
+          link: '/'
       },
       {
           title: 'Search',
-          link: '/public/search'
+          link: '/search'
       }
 ]);
 
